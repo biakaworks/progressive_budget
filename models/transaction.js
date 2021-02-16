@@ -23,3 +23,8 @@ const transactionSchema = new Schema(
 const Transaction = mongoose.model("Transaction", transactionSchema);
 
 module.exports = Transaction;
+
+
+mongodb+srv://biaka:bootcamp@cluster0.vfvhf.mongodb.net/budget?retryWrites=true&w=majority
+
+mongodb+srv://biaka:bootcamp@cluster0.vfvhf.mongodb.net/fitnesstracker?retryWrites=true&w=majority
